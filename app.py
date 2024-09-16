@@ -2,7 +2,7 @@ import streamlit as st
 from groq import Groq
 
 # Initialize Groq client
-client = Groq(api_key=st.secrets("APIKEY"))
+client = Groq(api_key=st.secrets["APIKEY"])
 
 # Streamlit app
 def main():
